@@ -1,0 +1,302 @@
+/* :root {
+    --primary-color: #BB86FC;
+    --secondary-color: #5790c5;
+    --accent-color: #CF6679;
+    --header-gradient: linear-gradient(135deg, #1E1E2F, #2A2A3D);
+    --nav-bg: #484876;
+    --container-bg: rgba(36,37,42,0.9);
+    --body-bg: linear-gradient(135deg, #1E1E2F, #12121F);
+    --text-color: #E0E0E0;
+    --card-shadow: 0 6px 12px rgba(0,0,0,0.5);
+    --highlight-color: #BB86FC;
+}
+
+body.light {
+    --primary-color: #4A90E2;
+    --secondary-color: #50E3C2;
+    --accent-color: #F5A623;
+    --header-gradient: linear-gradient(135deg, #4A90E2, #85e8d2);
+    --nav-bg: #f1f1f1;
+    --container-bg: #e5f5ff;
+    --body-bg: linear-gradient(135deg, #ECF0F1, #FFFFFF);
+    --text-color: #333333;
+    --card-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    --highlight-color: #4A90E2;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--body-bg);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: var(--container-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--card-shadow);
+    width: 100%;
+    max-width: 600px;
+}
+
+.business-card {
+    background: var(--header-gradient);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.business-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.business-card h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.business-card p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.chat-box {
+    background: var(--nav-bg);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.chat-message {
+    margin: 10px 0;
+}
+
+.chat-message.user {
+    text-align: right;
+    color: var(--highlight-color);
+}
+
+.chat-message.agent {
+    text-align: left;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--text-color);
+    color: var(--body-bg);
+}
+
+button {
+    padding: 10px 20px;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--primary-color);
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+
+
+
+:root {
+    --primary-color: #BB86FC;
+    --secondary-color: #5790c5;
+    --accent-color: #CF6679;
+    --header-gradient: linear-gradient(135deg, #1E1E2F, #2A2A3D);
+    --nav-bg: #484876;
+    --container-bg: rgba(36,37,42,0.9);
+    --body-bg: linear-gradient(135deg, #1E1E2F, #12121F);
+    --text-color: #E0E0E0;
+    --card-shadow: 0 6px 12px rgba(0,0,0,0.5);
+    --highlight-color: #BB86FC;
+}
+
+body.light {
+    --primary-color: #4A90E2;
+    --secondary-color: #50E3C2;
+    --accent-color: #F5A623;
+    --header-gradient: linear-gradient(135deg, #4A90E2, #85e8d2);
+    --nav-bg: #f1f1f1;
+    --container-bg: #e5f5ff;
+    --body-bg: linear-gradient(135deg, #ECF0F1, #FFFFFF);
+    --text-color: #333333;
+    --card-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    --highlight-color: #4A90E2;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--body-bg);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: var(--container-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--card-shadow);
+    width: 100%;
+    max-width: 600px;
+}
+
+.business-card {
+    background: var(--header-gradient);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.business-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.business-card h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.business-card p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.chat-box {
+    background: var(--nav-bg);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.chat-message {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.chat-message.user {
+    justify-content: flex-end;
+}
+
+.chat-message.agent {
+    justify-content: flex-start;
+}
+
+.message-bubble {
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.chat-message.user .message-bubble {
+    background: var(--highlight-color);
+    color: white;
+}
+
+.chat-message.agent .message-bubble {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.typing-indicator {
+    display: flex;
+    gap: 5px;
+}
+
+.typing-indicator span {
+    animation: blink 1s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes blink {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-5px); }
+    60% { transform: translateY(-3px); }
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--text-color);
+    color: black; /* Black text for input */
+}
+
+button {
+    padding: 10px 20px;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--primary-color);
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
